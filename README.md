@@ -52,15 +52,13 @@ Access and clone the Intent Gateway repo
 
 
 ```
-git clone https://<userid>@bitbucket.org/asurionlabs/ava-platform-image.git
+git clone https://github.com/asurionlabs/intent-gateway.git
 ```
 
 ```
-git checkout -b ava-intent-gateway-os origin/ava-intent-gateway-os
-```
 
 ```
-cd IntentGateway
+cd intent-gateway
 make build
 ```
 
