@@ -23,7 +23,7 @@ Rules - by adding a rule file to the configs folder IG is capable of supporting 
 
 ## AVA Platform and Docker
 
-![AVA + Docker icon](../ops/base/avadocker.png)
+![AVA + Docker icon](./avadocker.png)
 
 
 
