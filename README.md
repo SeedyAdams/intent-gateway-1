@@ -56,14 +56,14 @@ git clone https://github.com/asurionlabs/intent-gateway.git
 ```
 
 ```
-
-```
 cd intent-gateway
 make build
 ```
 
 ```
-docker run -it -p 5001:5001 --env RUN_LOCAL_CONTAINER=1 --env MODEL_BUCKET_NAME=ava-intentgateway --env PROFILE_NAME=asurion-dev.amadevops -v ~/.aws:/root/.aws -v <repo path>:/opt/app/IntentGateway t1:latest /bin/sh'
+docker run -it -p 5001:5001 --env RUN_LOCAL_CONTAINER=1 --env MODEL_BUCKET_NAME=a<s3 bucket> --env PROFILE_NAME=<profile name> -v ~/.aws:/root/.aws -v <repo path>:/opt/app/IntentGateway t1:latest /bin/sh'
+```
+
 ```
 
 That's it! You can now use this image and run the container as we did above.
