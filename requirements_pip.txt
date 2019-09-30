@@ -1,0 +1,3 @@
+duckling==1.8.0
+autocorrect==0.3.0
+aws

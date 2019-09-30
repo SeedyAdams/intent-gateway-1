@@ -1,0 +1,49 @@
+###
+# Intent Gateway is a natural language processing (NLP) framework to conduct model development and
+# model deployment for text classification.
+# Copyright (C) 2018-2019  Asurion, LLC
+#
+# Intent Gateway is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Intent Gateway is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Intent Gateway.  If not, see <https://www.gnu.org/licenses/>.
+###
+
+vzw_intent_models:
+
+    rulesparser_vzw_claims_first:
+      model_type: rules
+      config_files:
+        - rulesparser_vzw_claims_first.yaml
+    claims_breakout:
+      model_type: rules
+      config_files:
+        - claims_breakout.yaml
+    slotparser_vzw_claims:
+      model_type: slot
+      config_files:
+        - dateparser_vzw_claims.yaml
+    vzw_claims_info:
+      model_type: slot
+      config_files:
+        - vzw_claims_info.yaml
+    rf_multiclass_claims_v2.0.1:
+      model_type: avaml
+      config_files:
+        - rf_multiclass_claims_v2.0.1.yaml
+    rf_multiclass_claim_status_v1.0.0:
+      model_type: avaml
+      config_files:
+        - rf_multiclass_claim_status_v1.0.0.yaml
+    pmml_osc_sample:
+      model_type: pmml
+      config_files:
+        - pmml_osc_sample.yaml

@@ -1,0 +1,167 @@
+###
+# Intent Gateway is a natural language processing (NLP) framework to conduct model development and
+# model deployment for text classification.
+# Copyright (C) 2018-2019  Asurion, LLC
+#
+# Intent Gateway is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Intent Gateway is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Intent Gateway.  If not, see <https://www.gnu.org/licenses/>.
+###
+
+name: ig_py2
+channels:
+- conda-forge
+- defaults
+dependencies:
+- asn1crypto=0.24.0=py27_0
+- backports=1.0=py27_1
+- backports.functools_lru_cache=1.5=py27_0
+- backports_abc=0.5=py27_0
+- blas=1.1=openblas
+- blinker=1.4=py_0
+- boto3=1.7.30=py_0
+- botocore=1.10.30=py_0
+- ca-certificates=2018.4.16=0
+- certifi=2018.4.16=py27_0
+- cffi=1.11.5=py27_0
+- chardet=3.0.4=py27_0
+- click=6.7=py_1
+- cryptography=2.2.1=py27_0
+- cycler=0.10.0=py27_0
+- cymem=1.31.2=py27_0
+- cytoolz=0.8.2=py27_0
+- dbus=1.11.0=0
+- dill=0.2.7.1=py27_0
+- docutils=0.14=py27_0
+- enum34=1.1.6=py27_1
+- expat=2.2.5=0
+- flask=1.0.2=py_1
+- flask-cors=3.0.4=py_0
+- fontconfig=2.13.0=0
+- freetype=2.8.1=0
+- functools32=3.2.3.2=py27_2
+- futures=3.2.0=py27_0
+- fuzzywuzzy=0.16.0=py_0
+- gensim=3.4.0=py27_0
+- gunicorn=19.8.1=py27_0
+- icu=58.2=0
+- idna=2.6=py27_1
+- ipaddress=1.0.22=py_1
+- itsdangerous=0.24=py_2
+- jinja2=2.10=py27_0
+- jmespath=0.9.3=py27_0
+- joblib=0.11=py27_0
+- jpeg=9b=2
+- jpype1=0.6.3=py27_0
+- kiwisolver=1.0.1=py27_1
+- libiconv=1.15=0
+- libpng=1.6.34=0
+- libuuid=1.0.3=1
+- libxcb=1.13=0
+- libxml2=2.9.8=0
+- markupsafe=1.0=py27_0
+- matplotlib=2.2.2=py27_1
+- msgpack-numpy=0.4.1=py_0
+- msgpack-python=0.4.8=py27_0
+- murmurhash=0.28.0=py27_0
+- nltk=3.2.5=py_0
+- numpy=1.14.3=py27_blas_openblas_200
+- oauthlib=2.0.7=py_0
+- openblas=0.2.20=8
+- openssl=1.0.2o=0
+- pandas=0.23.0=py27_1
+- pathlib=1.0.1=py27_0
+- pcre=8.41=1
+- pip=9.0.3=py27_0
+- plac=0.9.6=py27_0
+- preshed=1.0.0=py27_0
+- pyjwt=1.6.3=py_0
+- pyparsing=2.2.0=py27_0
+- pyqt=5.6.0=py27_5
+- python-crfsuite=0.9.5=py27h470a237_0
+- python-dateutil=2.7.3=py_0
+- python-levenshtein=0.12.0=py27_0
+- pytz=2018.4=py_0
+- regex=2017.04.05=py27_0
+- requests-oauthlib=0.8.0=py27_1
+- s3transfer=0.1.13=py27_0
+- scikit-learn=0.19.1=py27_blas_openblas_201
+- scipy=1.1.0=py27_blas_openblas_200
+- setuptools=39.2.0=py27_0
+- singledispatch=3.4.0.3=py27_0
+- sip=4.18=py27_1
+- smart_open=1.5.7=py27_0
+- spacy=2.0.11=py27_0
+- subprocess32=3.5.1=py27_0
+- termcolor=1.1.0=py27_1
+- thinc=6.10.2=py27_0
+- toolz=0.9.0=py_0
+- tornado=5.0.2=py27_0
+- tqdm=4.23.4=py_0
+- trollius=2.2=py27_0
+- twython=3.7.0=py_0
+- ujson=1.35=py27_0
+- werkzeug=0.14.1=py_0
+- wheel=0.31.0=py27_0
+- wrapt=1.10.11=py27_0
+- xgboost=0.71=py27_0
+- xorg-libxau=1.0.8=3
+- xorg-libxdmcp=1.1.2=3
+- xz=5.2.3=0
+- boto=2.48.0=py27h9556ac2_1
+- bz2file=0.98=py27_0
+- glib=2.53.6=h5d9569c_2
+- gst-plugins-base=1.12.4=h33fb286_0
+- gstreamer=1.12.4=hb53b477_0
+- libedit=3.1.20170329=h6b74fdf_2
+- libffi=3.2.1=hd88cf55_4
+- libgcc=7.2.0=h69d50b8_2
+- libgcc-ng=7.2.0=hdf63c60_3
+- libgfortran=3.0.0=1
+- libgfortran-ng=7.2.0=hdf63c60_3
+- libopenblas=0.2.20=h9ac9557_7
+- libstdcxx-ng=7.2.0=hdf63c60_3
+- ncurses=6.1=hf484d3e_0
+- numpy-base=1.14.3=py27h0ea5e3f_1
+- pycosat=0.6.3=py27ha4109ae_0
+- pycparser=2.18=py27hefa08c5_1
+- pyopenssl=17.5.0=py27hcee3be0_0
+- pysocks=1.6.8=py27_0
+- python=2.7.14=h1571d57_31
+- pyyaml=3.12=py27h2d70dd7_1
+- qt=5.6.2=h974d657_12
+- readline=7.0=ha6073c6_4
+- requests=2.18.4=py27hc5b0589_1
+- ruamel_yaml=0.15.35=py27h14c3975_1
+- six=1.11.0=py27h5f960f1_1
+- sqlite=3.23.1=he433501_0
+- tk=8.6.7=hc745277_3
+- urllib3=1.22=py27ha55213b_0
+- yaml=0.1.7=had09818_2
+- zlib=1.2.11=ha838bed_2
+- pip:
+  - autocorrect==0.3.0
+  - aws==0.2.5
+  - backports-abc==0.5
+  - backports.functools-lru-cache==1.5
+  - bcrypt==3.1.4
+  - duckling==1.8.0
+  - en-core-web-sm==2.0.0
+  - fabric==2.1.3
+  - invoke==1.0.0
+  - paramiko==2.4.1
+  - prettytable==0.7.2
+  - pyasn1==0.4.3
+  - pynacl==1.2.1
+  - ruamel-yaml==0.15.35
+  - smart-open==1.5.7
+prefix: /usr/local/envs/ig_py2
